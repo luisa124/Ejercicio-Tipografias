@@ -1,0 +1,57 @@
+.box{
+    width: 220px;
+    height: 270px;
+    box-shadow: 8px 10px 14px -8px a;
+    float: left;
+    text-align: center;
+    background-color: silver;
+    padding-top: 30px;
+    margin: 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.box:hover {
+    padding-top: 20px;
+    color: wheat;
+    background-color: #FFF;
+    -webkit-transform: scale(1.1);
+    color: #8C8F98;
+    -webkit-transition: all .0.5s ease-in-out;
+}
+
+.icon-paperplane:before {
+    content: "\e900";
+    font-size:  50px;
+    color: #FFF;
+}
+
+.icon-diamond:before {
+    content: "\e900";
+    font-size:  50px;
+    color: #195BFF;
+}
+
+.icon-heart:before {
+    content: "\e900";
+    font-size:  80px;
+    color: red;
+}
+
+.icon-cloud:before {
+    content: "\e900";
+    font-size:  50px;
+    color: #B28412;
+}
+
+.icon-video:before {
+    content: "\e900";
+    font-size:  50px; 
+    color: #FFE1BC;
+}
+
+
+
+
